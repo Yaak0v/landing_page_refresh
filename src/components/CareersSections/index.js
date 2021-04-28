@@ -1,5 +1,5 @@
-import React from "react";
-import { Row } from "react-bootstrap";
+import React, { useState } from "react";
+import { Row, Col } from "react-bootstrap";
 import { Button } from "../ButtonElement";
 import { animateScroll as scroll, Element } from "react-scroll";
 import {
@@ -21,6 +21,7 @@ import {
   CareerDropDownButton,
   CareerDescription,
   JdRow,
+  SectionLine,
 } from "./CareersElements";
 import Navbar from "../Navbar";
 import Fade from "react-reveal";
@@ -71,6 +72,16 @@ const CareersSection = ({
     });
   };
 
+  const [JD, setJD] = useState(false);
+
+  const openJD = () => {
+    if (JD === false) {
+      setJD(true);
+    } else {
+      setJD(false);
+    }
+  };
+
   return (
     <>
       <InfoContainer id={SectionOneid} lightBg={SectionOnelightBg}>
@@ -78,46 +89,35 @@ const CareersSection = ({
           <InfoRow imgStart={SectionOneimgStart}>
             <Column1>
               <TextWrapper>
-                <Fade
-                  left={SectionOnefadeTitleLeft}
-                  right={SectionOnefadeTitleRight}
-                  cascade
-                >
                   <TopLine>{SectionOnetopLine}</TopLine>
                   <Heading>{SectionOneheadline}</Heading>
                   <Subtitle>{SectionOnedescription}</Subtitle>
-                  <BtnWrap>
-                    <CareerDropDownButton
-                      to="/contact"
-                      smooth={true}
-                      duration={500}
-                      spy={true}
-                      exact="true"
-                      offset={-80}
-                      onClick={toggleHome}
-                      lightBg={SectionOnelightBg}
-                    >
-                      {SectionOnebuttonLabel}
-                    </CareerDropDownButton>
-                  </BtnWrap>
-                </Fade>
+                  <Row classname='d-flex flex-row'>
+                    <Col>
+                      <Button>Apply For This Role</Button>
+                    
+                    </Col>
+                    <Col>
+                    <BtnWrap>
+                      <CareerDropDownButton
+                        onClick={openJD}
+                        lightBg={SectionOnelightBg}
+                        JD={JD}
+                      >
+                        {SectionOnebuttonLabel}
+                      </CareerDropDownButton>
+                    </BtnWrap>
+                    </Col>
+                  </Row>
               </TextWrapper>
             </Column1>
             <Column2>
-              <div className="row d-flex justify-content-center mb-2">
-                <Fade
-                  left={SectionOnefadeContentLeft}
-                  right={SectionOnefadeContentRight}
-                  cascade
-                >
                   <ImgWrapSmall>
                     <ImgSmall src={SectionOneimg} alt={SectionOnealt} />
                   </ImgWrapSmall>
-                </Fade>
-              </div>
             </Column2>
           </InfoRow>
-          <JdRow>
+          <JdRow JD={JD}>
             <CareerHeading>{JDHeader1}</CareerHeading>
             <CareerDescription>{JDSection1}</CareerDescription>
             <CareerHeading>{JDHeader2}</CareerHeading>
@@ -149,6 +149,7 @@ const CareersSection = ({
             <CareerDescription>{JDSection6}</CareerDescription>
             <Button>Apply For This Role</Button>
           </JdRow>
+          
         </InfoWrapper>
       </InfoContainer>
     </>

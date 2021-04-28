@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#f8f9fa")};
+  /* min-height: 800px; */
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -26,7 +27,7 @@ export const InfoWrapper = styled.div`
 
 export const InfoRow = styled.div`
   display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
+  grid-auto-columns: 1fr 1fr; 
   align-items: center;
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
@@ -35,13 +36,16 @@ export const InfoRow = styled.div`
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
-
 `;
 
 export const JdRow = styled.div`
-margin-bottom: 3rem;
-margin-top: 3rem;
-`
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding: 0 15px;
+  transition: all 1s ease-in-out;
+  display: ${({ JD }) => (JD ? "block" : "none")};
+`;
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
@@ -76,7 +80,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color:  #253858;
+  color: #253858;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -87,7 +91,7 @@ export const CareerHeading = styled.h1`
   margin-bottom: 1rem;
   font-size: 32px;
   font-weight: 600;
-  color:  #253858;
+  color: #253858;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -99,56 +103,66 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: #42526E;
+  color: #42526e;
 `;
 
 export const CareerDescription = styled.p`
   font-size: 18px;
-  color: #42526E;
+  color: #42526e;
   margin-bottom: 3rem;
 `;
 
 export const BtnWrap = styled.div`
-display: flex;
-justify-content: flex-start;
-`
+  display: flex;
+  justify-content: flex-start;
+`;
 export const ImgWrap = styled.div`
-max-width: 555px;
-height: 100%;
-`
+  /* max-width: 555px; */
+  height: 100%;
+`;
 export const ImgWrapSmall = styled.div`
-max-width: 555px;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-`
+  /* max-width: 555px; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const Img = styled.img`
-width: 100%;
-margin: 0 0 10px 0;
-padding-right: 0;
-`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+`;
 
 export const ImgSmall = styled.img`
-width: 60%;
-margin: 0 0 10px 0;
-padding-right: 0;
-`
+  width: 60%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+`;
 
 export const CareerDropDownButton = styled.div`
-background-color: inherit;
-border-top: 0px;
-border-left: 0px;
-border-right: 0px;
-border-bottom: 2px solid;
-border-color: ${({ lightBg }) => (lightBg ? "#fff" : "#f8f9fa")}; 
-color: #253858;
-font-size: 1.15rem;
-cursor: pointer;
+  background-color: inherit;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid;
+  border-color: ${({ JD }) => (JD ? "#253858" : "#fff")};
+  color: #253858;
+  font-size: 1.15rem;
+  cursor: pointer;
 
-&:hover {
+  &:hover {
     transition: all 0.2s ease-in-out;
     border-color: #253858;
-}
+  }
+`;
+
+export const SectionLine = styled.div`
+margin: auto;
+opacity: .3;
+border-bottom: 2px solid;
+border-color: #253858;
+width: 90%;
+margin-bottom: 3rem;
+max-width: 1300px;
 `
