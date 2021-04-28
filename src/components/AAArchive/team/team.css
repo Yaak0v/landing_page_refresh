@@ -1,0 +1,7 @@
+.team-picture {
+  width: 100%;
+}
+
+.team-picture:hover {
+  opacity: 0.9;
+}

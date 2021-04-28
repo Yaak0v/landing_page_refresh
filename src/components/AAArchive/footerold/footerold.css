@@ -1,0 +1,44 @@
+.footer-list {
+    /* list-style-type: none; */
+    /* font-family: Lato; */
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+    /* font-family: lato; */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: mediumseagreen;
+}
+
+.max-150 {
+    max-width: 150px;
+}
+
+.min-50 {
+    min-width: 50px;
+}
+
+.w-100 {
+    width: 100%
+}
+
+.euclid-layout {
+    border-color: tomato;
+    border: tomato 1px;
+    border-style: solid;
+  }
+
+  .top-grow {
+      border-top: 5px solid transparent;
+      width: 0%;
+      transition: .4s ease-out;
+  }
+
+  #footer-main-link:hover ~ #footer-main-link-underline {
+      border-top: 5px solid mediumseagreen;
+      width: 100%;
+  }

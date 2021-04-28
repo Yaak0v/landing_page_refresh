@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto:bold|Lora|Kumbh+Sans:wght@300;400|DM+Sans");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Encode Sans Expanded";
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Encode Sans Expanded'; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Roboto {
+  font-family: Roboto;
+  font-weight: normal;
+}
+
+.max-400 {
+  max-width: 400px;
+  width: 100%;
+}
+
+.light-text {
+  color: snow;
+}
+
+.ghost-button {
+  display: inline-block;
+  width: 300px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid snow;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background-color 0.2 ease-out, color 0.2s ease-out;
+}
+.ghost-button:hover {
+  background-color: snow;
+  color: dimgray;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.category-headline {
+  border-color: teal;
+  border-style: none none solid;
+  border-width: 1px;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #253858;
+}
+
+.category-items {
+  color: #42526e;
+}
+
+.euclid-nav {
+  background-color: transparent;
+}
+
+.euclid-nav.active {
+  background: linear-gradient(rgba(255, 250, 250, 1), rgba(255, 250, 250, 1));
+}
+
+.nav-link {
+  color: snow;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navlogo {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 0rem;
+}
+
+.footlogo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.team-header {
+  color: #253858;
+  text-decoration: none;
+}
+
+.header-color {
+  color: #253858;
+}
+
+.paragraph-color {
+  color: #42526e;
+}
+
+.top-line {
+  color: #0045ff;
+  font-size: 1rem;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.contact-image {
+  width: 65%;
+}
+
+.contact-button {
+  border-radius: 50px;
+  background: #0035fd;
+  white-space: nowrap;
+  padding: 5px 35px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: 2px solid;
+  border-color: #0035fd;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 5px 14px -5px #0035fd;
+}
+.contact-button:hover {
+  transition: all 0.2s ease-in-out;
+  background: transparent;
+  color: #0035fd;
+  border-color: #0035fd;
+  box-shadow: none;
+}
+
+.footer-main {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-main:hover {
+  text-decoration: none;
+  color: mediumseagreen;
+}
+
+.footer-link {
+  color: black;
+  text-decoration: none;
+  /* font-family: lato; */
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: mediumseagreen;
+}
+
+.top-grow {
+  border-top: 5px solid transparent;
+  width: 0%;
+  transition: 0.4s ease-out;
+}
+
+#footer-main-link:hover ~ #footer-main-link-underline {
+  border-top: 5px solid mediumseagreen;
+  width: 100%;
+}
+
+.team-list-item {
+  background-color: #f8f9fa;
+}
