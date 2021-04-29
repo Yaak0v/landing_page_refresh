@@ -89,7 +89,7 @@ export const Heading = styled.h1`
 
 export const CareerHeading = styled.h1`
   margin-bottom: 1rem;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   color: #253858;
 
@@ -107,7 +107,7 @@ export const Subtitle = styled.p`
 `;
 
 export const CareerDescription = styled.p`
-  font-size: 18px;
+  font-size: 14px;
   color: #42526e;
   margin-bottom: 3rem;
 `;

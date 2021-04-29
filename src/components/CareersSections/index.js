@@ -121,7 +121,11 @@ const CareersSection = ({
             <CareerHeading>{JDHeader1}</CareerHeading>
             <CareerDescription>{JDSection1}</CareerDescription>
             <CareerHeading>{JDHeader2}</CareerHeading>
-            <CareerDescription>{JDSection2}</CareerDescription>
+            <CareerDescription>
+                {JDSection2.map((item, index) => (
+                  <p key={index}>{item}</p>
+                ))}
+            </CareerDescription>
             <CareerHeading>{JDHeader3}</CareerHeading>
             <CareerDescription>
               <ul>
