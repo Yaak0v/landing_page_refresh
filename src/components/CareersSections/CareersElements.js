@@ -19,9 +19,9 @@ export const InfoWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
-
+/* 
   @media screen and (max-width: 616px) {
-    height: 900px;
+    height: 900px; */
   }
 `;
 
