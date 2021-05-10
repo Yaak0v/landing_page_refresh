@@ -69,7 +69,7 @@ export const careersData1 = {
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
   JDHeadline: [
-    "Location: Remote (With occasional travel to NYC for team or client meetings",
+    "Location: Remote (with occasional travel for team meetings or client engagements)",
     "Part-Time (3-5 hours / week )",
   ],
 };
@@ -84,7 +84,7 @@ export const careersData2 = {
   JDHighLevel:
     "Experienced program/project manager looking to lead execution on industry-leading renewable energy projects",
   JDLocation:
-    "Location: Remote (With occasional travel to NYC for team or client meetings",
+    "Location: Remote (with occasional travel for team meetings or client engagements)",
   JDCommitment: "Full-Time (40+ hours / week )",
   SectionOnebuttonLabel: "Full Job Description",
   SectionOneimgStart: false,
@@ -152,7 +152,7 @@ export const careersData2 = {
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
   JDHeadline: [
-    "Location: Remote (With occasional travel to NYC for team or client meetings",
+    "Location: Remote (with occasional travel for team meetings or client engagements)",
     "Part-Time (3-5 hours / week )",
   ],
 };
@@ -167,7 +167,7 @@ export const careersData3 = {
   JDHighLevel:
     "Ambitious, early-career opportunity to drive execution on a variety of renewable energy projects",
   JDLocation:
-    "Location: Remote (With occasional travel to NYC for team or client meetings",
+    "Location: Remote (with occasional travel for team meetings or client engagements)",
   JDCommitment: "Full-Time (40+ hours / week )",
   SectionOnebuttonLabel: "Full Job Description",
   SectionOneimgStart: false,
