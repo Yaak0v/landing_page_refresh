@@ -136,6 +136,7 @@ const Navbar = ({ toggle }) => {
                 <NavItem>
                   <NavLinkr
                     to="/careers"
+                    onClick={toggleHome}
                     offset={-80}
                     scrollNav={scrollNav}
                     homeNav={homeNav}

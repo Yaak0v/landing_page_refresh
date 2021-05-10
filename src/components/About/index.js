@@ -25,7 +25,7 @@ const About = () => {
               <AboutH1>Our Mission: Build Great Clean Energy Projects</AboutH1>
               </Fade>
               <TextWrapper>
-                <Fade left cascade>
+                <Fade cascade>
                   <TopLine>Who We Are</TopLine>
                   <Subtitle>
                   Euclid Power is a renewable energy company that helps renewables developers and investors develop, diligence, execute, and asset-manage renewables projects. Euclid provides a transformative data and project management platform alongside value-add services to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of industry-leading veterans within renewable energy project development, diligence, finance, and execution with over 3GW of PV and 1GWh of energy storage experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors including Goldman Sachs Renewable Power, Blackstone (Onyx), GE Solar, Generate Capital, and True Green Capital. Our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge.

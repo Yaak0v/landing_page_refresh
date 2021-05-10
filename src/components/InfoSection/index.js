@@ -163,8 +163,8 @@ const InfoSectionFull = ({
               <Column1>
                 <TextWrapper>
                   <Fade
-                    left={SectionOnefadeTitleLeft}
-                    right={SectionOnefadeTitleRight}
+                    // left={SectionOnefadeTitleLeft}
+                    // right={SectionOnefadeTitleRight}
                     cascade
                   >
                     <TopLine>{SectionOnetopLine}</TopLine>
@@ -189,8 +189,8 @@ const InfoSectionFull = ({
               <Column2>
                 <div className="row d-flex justify-content-center mb-2">
                   <Fade
-                    left={SectionOnefadeContentLeft}
-                    right={SectionOnefadeContentRight}
+                    // left={SectionOnefadeContentLeft}
+                    // right={SectionOnefadeContentRight}
                     cascade
                   >
                     <ImgWrapSmall>
@@ -200,8 +200,8 @@ const InfoSectionFull = ({
                 </div>
                 <div className="row mt-5">
                   <Fade
-                    left={SectionOnefadeContentLeft}
-                    right={SectionOnefadeContentRight}
+                    // left={SectionOnefadeContentLeft}
+                    // right={SectionOnefadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -226,8 +226,8 @@ const InfoSectionFull = ({
                     </div>
                   </Fade>
                   <Fade
-                    left={SectionOnefadeContentLeft}
-                    right={SectionOnefadeContentRight}
+                    // left={SectionOnefadeContentLeft}
+                    // right={SectionOnefadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -262,8 +262,8 @@ const InfoSectionFull = ({
               <Column1>
                 <TextWrapper>
                   <Fade
-                    left={SectionTwofadeTitleLeft}
-                    right={SectionTwofadeTitleRight}
+                    // // left={SectionTwofadeTitleLeft}
+                    // right={SectionTwofadeTitleRight}
                     cascade
                   >
                     <TopLine>{SectionTwotopLine}</TopLine>
@@ -288,8 +288,8 @@ const InfoSectionFull = ({
               <Column2>
                 <div className="row d-flex justify-content-center mb-2">
                   <Fade
-                    left={SectionTwofadeContentLeft}
-                    right={SectionTwofadeContentRight}
+                    // // left={SectionTwofadeContentLeft}
+                    // // right={SectionTwofadeContentRight}
                     cascade
                   >
                     <ImgWrapSmall>
@@ -299,8 +299,8 @@ const InfoSectionFull = ({
                 </div>
                 <div className="row mt-5">
                   <Fade
-                    left={SectionTwofadeContentLeft}
-                    right={SectionTwofadeContentRight}
+                    // // left={SectionTwofadeContentLeft}
+                    // // right={SectionTwofadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -325,8 +325,8 @@ const InfoSectionFull = ({
                     </div>
                   </Fade>
                   <Fade
-                    left={SectionTwofadeContentLeft}
-                    right={SectionTwofadeContentRight}
+                    // // left={SectionTwofadeContentLeft}
+                    // // right={SectionTwofadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -361,8 +361,8 @@ const InfoSectionFull = ({
               <Column1>
                 <TextWrapper>
                   <Fade
-                    left={SectionThreefadeTitleLeft}
-                    right={SectionThreefadeTitleRight}
+                    // // left={SectionThreefadeTitleLeft}
+                    // // right={SectionThreefadeTitleRight}
                     cascade
                   >
                     <TopLine>{SectionThreetopLine}</TopLine>
@@ -387,8 +387,8 @@ const InfoSectionFull = ({
               <Column2>
                 <div className="row d-flex justify-content-center mb-2">
                   <Fade
-                    left={SectionThreefadeContentLeft}
-                    right={SectionThreefadeContentRight}
+                    // // left={SectionThreefadeContentLeft}
+                    // // right={SectionThreefadeContentRight}
                     cascade
                   >
                     <ImgWrapSmall>
@@ -398,8 +398,8 @@ const InfoSectionFull = ({
                 </div>
                 <div className="row mt-5">
                   <Fade
-                    left={SectionThreefadeContentLeft}
-                    right={SectionThreefadeContentRight}
+                    // // left={SectionThreefadeContentLeft}
+                    // // right={SectionThreefadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -424,8 +424,8 @@ const InfoSectionFull = ({
                     </div>
                   </Fade>
                   <Fade
-                    left={SectionThreefadeContentLeft}
-                    right={SectionThreefadeContentRight}
+                    // // left={SectionThreefadeContentLeft}
+                    // // right={SectionThreefadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -460,8 +460,8 @@ const InfoSectionFull = ({
               <Column1>
                 <TextWrapper>
                   <Fade
-                    left={SectionFourfadeTitleLeft}
-                    right={SectionFourfadeTitleRight}
+                    // // left={SectionFourfadeTitleLeft}
+                    // // right={SectionFourfadeTitleRight}
                     cascade
                   >
                     <TopLine>{SectionFourtopLine}</TopLine>
@@ -486,8 +486,8 @@ const InfoSectionFull = ({
               <Column2>
                 <div className="row d-flex justify-content-center mb-2">
                   <Fade
-                    left={SectionFourfadeContentLeft}
-                    right={SectionFourfadeContentRight}
+                    // // left={SectionFourfadeContentLeft}
+                    // // right={SectionFourfadeContentRight}
                     cascade
                   >
                     <ImgWrapSmall>
@@ -497,8 +497,8 @@ const InfoSectionFull = ({
                 </div>
                 <div className="row mt-5">
                   <Fade
-                    left={SectionFourfadeContentLeft}
-                    right={SectionFourfadeContentRight}
+                    // // left={SectionFourfadeContentLeft}
+                    // // right={SectionFourfadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -507,7 +507,7 @@ const InfoSectionFull = ({
                       </div>
                       <div>
                         <Fade
-                          left={SectionFourfadeContentLeft}
+                           left={SectionFourfadeContentLeft}
                           right={SectionFourfadeContentRight}
                           cascade
                         >
@@ -523,8 +523,8 @@ const InfoSectionFull = ({
                     </div>
                   </Fade>
                   <Fade
-                    left={SectionFourfadeContentLeft}
-                    right={SectionFourfadeContentRight}
+                    // // left={SectionFourfadeContentLeft}
+                    // // right={SectionFourfadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -559,8 +559,8 @@ const InfoSectionFull = ({
               <Column1>
                 <TextWrapper>
                   <Fade
-                    left={SectionFivefadeTitleLeft}
-                    right={SectionFivefadeTitleRight}
+                    // // left={SectionFivefadeTitleLeft}
+                    // // right={SectionFivefadeTitleRight}
                     cascade
                   >
                     <TopLine>{SectionFivetopLine}</TopLine>
@@ -585,8 +585,8 @@ const InfoSectionFull = ({
               <Column2>
                 <div className="row d-flex justify-content-center mb-2">
                   <Fade
-                    left={SectionFivefadeContentLeft}
-                    right={SectionFivefadeContentRight}
+                    // // left={SectionFivefadeContentLeft}
+                    // // right={SectionFivefadeContentRight}
                     cascade
                   >
                     <ImgWrapSmall>
@@ -596,8 +596,8 @@ const InfoSectionFull = ({
                 </div>
                 <div className="row mt-5">
                   <Fade
-                    left={SectionFivefadeContentLeft}
-                    right={SectionFivefadeContentRight}
+                    // // left={SectionFivefadeContentLeft}
+                    // // right={SectionFivefadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
@@ -622,8 +622,8 @@ const InfoSectionFull = ({
                     </div>
                   </Fade>
                   <Fade
-                    left={SectionFivefadeContentLeft}
-                    right={SectionFivefadeContentRight}
+                    // // left={SectionFivefadeContentLeft}
+                    // // right={SectionFivefadeContentRight}
                     cascade
                   >
                     <div className="col-sm">
