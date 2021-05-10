@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
-import { Button } from "../ButtonElement";
+import { ExternalButton } from "../ButtonElement";
 import { animateScroll as scroll, Element } from "react-scroll";
 import {
   InfoContainer,
@@ -90,10 +90,10 @@ const CareersSection = ({
                   </ul>
                 </Subtitle>
                 <Row classname="d-flex flex-row">
-                  <Col>
-                    <Button>Apply For This Role</Button>
+                  <Col className="py-4">
+                    <ExternalButton href="https://app.smartsheet.com/b/form/992b5517a91b417dad74706043be5c66">Apply For This Role</ExternalButton>
                   </Col>
-                  <Col>
+                  <Col className="py-4">
                     <BtnWrap>
                       <CareerDropDownButton
                         onClick={openJD}
@@ -163,7 +163,7 @@ const CareersSection = ({
               </ul>
             </CareerDescription>
             <CareerDescription>{JDSection8}</CareerDescription>
-            <Button>Apply For This Role</Button>
+            <ExternalButton href="https://app.smartsheet.com/b/form/992b5517a91b417dad74706043be5c66">Apply For This Role</ExternalButton>
           </JdRow>
         </InfoWrapper>
       </InfoContainer>

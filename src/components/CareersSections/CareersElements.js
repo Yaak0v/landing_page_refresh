@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
   /* min-height: 800px; */
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 5px 0;
   }
 `;
 
@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 616px) {
-    height: 1050px;
+    height: 900px;
   }
 `;
 
@@ -138,6 +138,10 @@ export const ImgSmall = styled.img`
   width: 60%;
   margin: 0 0 10px 0;
   padding-right: 0;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const CareerDropDownButton = styled.div`

@@ -40,15 +40,12 @@ export const careersData1 = {
     "Work closely with the founding team to learn and understand the process of renewable energy development, diligence, execution, investment, and asset management",
     "2-5 hour time commitment while we build towards web app MVP including calls with founding team, high-level design of web app platform, feedback on dev shop scopes, strategic discussions on software decisions",
   ],
-  JDHeader5: "Required Skills and Experience",
+  JDHeader5: "What You'll Do - Long-Term",
   JDSection5: [
-    "5+ years of software development experience",
-    "Strong front-end engineering skills with React, Typescript, Javascript",
-    "Excellent back-end engineering skills (Python / Django, API, database architecture)",
-    "Experience in designing and scaling a REST or GraphQL API",
-    "Experience in managing an engineering team or acting in a tech-lead role",
-    "Excellent software architecture skills to lay the framework for future scale",
-    "Experience in renewables is a plus, but by no means necessary",
+"Support hiring and future build-out of internal Euclid frontend and backend software engineering team",
+"Develop roadmap for future Euclid software buildout",
+"Facilitate design and architecture of new products and tools to serve renewable energy project developers and investors through Euclid’s platform with guidance from the founding members ",
+"Work with internal and external engineering resources to incorporate customer feedback into product",
   ],
   JDHeader6: "Required Skills and Experience",
   JDSection6: [
@@ -85,7 +82,7 @@ export const careersData2 = {
   SectionOnetopLine: "Execution Services",
   SectionOneheadline: "Program/Portfolio Manager",
   JDHighLevel:
-    "Experienced program/project manager looking to drive execution on industry-leading renewable energy projects",
+    "Experienced program/project manager looking to lead execution on industry-leading renewable energy projects",
   JDLocation:
     "Location: Remote (With occasional travel to NYC for team or client meetings",
   JDCommitment: "Full-Time (40+ hours / week )",
