@@ -36,22 +36,6 @@ const CareersSection = ({
   SectionOnebuttonLabel,
   SectionOneimg,
   SectionOnealt,
-  SectionOnelistTitleOne,
-  SectionOnelistOneObjectOne,
-  SectionOnelistOneObjectTwo,
-  SectionOnelistOneObjectThree,
-  SectionOnelistOneObjectFour,
-  SectionOnelistOneObjectFive,
-  SectionOnelistTitleTwo,
-  SectionOnelistTwoObjectOne,
-  SectionOnelistTwoObjectTwo,
-  SectionOnelistTwoObjectThree,
-  SectionOnelistTwoObjectFour,
-  SectionOnelistTwoObjectFive,
-  SectionOnefadeTitleLeft,
-  SectionOnefadeTitleRight,
-  SectionOnefadeContentLeft,
-  SectionOnefadeContentRight,
   JDHeader1,
   JDSection1,
   JDHeader2,
@@ -62,7 +46,14 @@ const CareersSection = ({
   JDSection4,
   JDHeader5,
   JDSection5,
+  JDHeader6,
   JDSection6,
+  JDHeader7,
+  JDSection7,
+  JDSection8,
+  JDLocation,
+  JDHighLevel,
+  JDCommitment,
 }) => {
   const toggleHome = () => {
     scroll.scrollToTop({
@@ -89,15 +80,20 @@ const CareersSection = ({
           <InfoRow imgStart={SectionOneimgStart}>
             <Column1>
               <TextWrapper>
-                  <TopLine>{SectionOnetopLine}</TopLine>
-                  <Heading>{SectionOneheadline}</Heading>
-                  <Subtitle>{SectionOnedescription}</Subtitle>
-                  <Row classname='d-flex flex-row'>
-                    <Col>
-                      <Button>Apply For This Role</Button>
-                    
-                    </Col>
-                    <Col>
+                <TopLine>{SectionOnetopLine}</TopLine>
+                <Heading>{SectionOneheadline}</Heading>
+                <Subtitle>
+                  <p>{JDHighLevel}</p>
+                  <ul>
+                  <li>{JDLocation}</li>
+                  <li>{JDCommitment}</li>
+                  </ul>
+                </Subtitle>
+                <Row classname="d-flex flex-row">
+                  <Col>
+                    <Button>Apply For This Role</Button>
+                  </Col>
+                  <Col>
                     <BtnWrap>
                       <CareerDropDownButton
                         onClick={openJD}
@@ -107,14 +103,14 @@ const CareersSection = ({
                         {SectionOnebuttonLabel}
                       </CareerDropDownButton>
                     </BtnWrap>
-                    </Col>
-                  </Row>
+                  </Col>
+                </Row>
               </TextWrapper>
             </Column1>
             <Column2>
-                  <ImgWrapSmall>
-                    <ImgSmall src={SectionOneimg} alt={SectionOnealt} />
-                  </ImgWrapSmall>
+              <ImgWrapSmall>
+                <ImgSmall src={SectionOneimg} alt={SectionOnealt} />
+              </ImgWrapSmall>
             </Column2>
           </InfoRow>
           <JdRow JD={JD}>
@@ -122,9 +118,9 @@ const CareersSection = ({
             <CareerDescription>{JDSection1}</CareerDescription>
             <CareerHeading>{JDHeader2}</CareerHeading>
             <CareerDescription>
-                {JDSection2.map((item, index) => (
-                  <p key={index}>{item}</p>
-                ))}
+              {JDSection2.map((item, index) => (
+                <p key={index}>{item}</p>
+              ))}
             </CareerDescription>
             <CareerHeading>{JDHeader3}</CareerHeading>
             <CareerDescription>
@@ -150,10 +146,17 @@ const CareersSection = ({
                 ))}
               </ul>
             </CareerDescription>
-            <CareerDescription>{JDSection6}</CareerDescription>
+            <CareerHeading>{JDHeader6}</CareerHeading>
+            <CareerDescription>
+              <ul>
+                {JDSection6.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </CareerDescription>
+            <CareerDescription>{JDSection7}</CareerDescription>
             <Button>Apply For This Role</Button>
           </JdRow>
-          
         </InfoWrapper>
       </InfoContainer>
     </>
