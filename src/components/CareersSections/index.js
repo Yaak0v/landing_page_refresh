@@ -154,7 +154,15 @@ const CareersSection = ({
                 ))}
               </ul>
             </CareerDescription>
-            <CareerDescription>{JDSection7}</CareerDescription>
+            <CareerHeading>{JDHeader7}</CareerHeading>
+            <CareerDescription>
+              <ul>
+                {JDSection7.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </CareerDescription>
+            <CareerDescription>{JDSection8}</CareerDescription>
             <Button>Apply For This Role</Button>
           </JdRow>
         </InfoWrapper>

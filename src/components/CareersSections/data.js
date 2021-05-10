@@ -11,7 +11,7 @@ export const careersData1 = {
   JDCommitment: "Part-Time (3-5 hours / week )",
   SectionOnebuttonLabel: "Full Job Description",
   SectionOneimgStart: false,
-  SectionOneimg: require("../../images/undraw/undraw_dashboard_green.svg")
+  SectionOneimg: require("../../images/undraw/undraw_code_typing.svg")
     .default,
   SectionOnealt: "",
   JDHeader1: "Our Story",
@@ -62,12 +62,12 @@ export const careersData1 = {
   ],
   JDHeader7: "What We Provide",
   JDSection7: [
-"Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
-"Opportunity for early equity awards and share in the growth of the firm you are helping build ",
-"Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
-"Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
-"Opportunity to learn and grow in a truly supportive, collaborative, dynamic and diverse environment ",
-"Exposure to high-profile, industry leading clients, products, and technology",
+    "Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
+    "Opportunity for early equity awards and share in the growth of the firm you are helping build ",
+    "Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
+    "Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
+    "Opportunity to learn and grow in a truly supportive, collaborative, dynamic and diverse environment ",
+    "Exposure to high-profile, industry leading clients, products, and technology",
   ],
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
@@ -91,7 +91,7 @@ export const careersData2 = {
   JDCommitment: "Full-Time (40+ hours / week )",
   SectionOnebuttonLabel: "Full Job Description",
   SectionOneimgStart: false,
-  SectionOneimg: require("../../images/undraw/undraw_dashboard_green.svg")
+  SectionOneimg: require("../../images/undraw/undraw_circles_green.svg")
     .default,
   SectionOnealt: "",
   JDHeader1: "Our Story",
@@ -137,21 +137,20 @@ export const careersData2 = {
     "7+ years of proven program, project, construction or operations management experience within the renewable energy, energy, or adjacent industries (preferred) or strong desire to enter the renewables space",
     "Demonstrated experience managing and executing on multiple C&I and/or utility scale PV, PV + storage or standalone storage project",
     "Experience efficiently managing master programs consisting of sub-consultants, vendors, third-party engineering/design firms, EPC contractors etc.",
-    "Strong technical acumen and firm grasp of standard equipment, permitting requirements & process, design best practices, standard QA/QC protocols, contracting & negotiation, construction best practices and industry standards (and how to exceed them)", 
+    "Strong technical acumen and firm grasp of standard equipment, permitting requirements & process, design best practices, standard QA/QC protocols, contracting & negotiation, construction best practices and industry standards (and how to exceed them)",
     "Full knowledge of renewables project lifecycle, inside and outside of project execution, and understanding of key project value drivers, project development and financing",
     "Complete understanding of project and operations management principles and customer success methods and best practices",
     "Bachelor’s or master’s degree in engineering, project/operations/construction management, business management/economics - concentrations preferred, but not required",
     "PE/PMP/PfMP - preferred, but not required",
-    
   ],
   JDHeader7: "What We Provide",
   JDSection7: [
-"Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
-"Opportunity for early equity awards and share in the growth of the firm you are helping build ",
-"Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
-"Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
-"Opportunity to learn and grow in a truly supportive, collaborative, dynamic and diverse environment ",
-"Exposure to high-profile, industry leading clients, products, and technology",
+    "Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
+    "Opportunity for early equity awards and share in the growth of the firm you are helping build ",
+    "Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
+    "Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
+    "Opportunity to learn and grow in a truly supportive, collaborative, dynamic and diverse environment ",
+    "Exposure to high-profile, industry leading clients, products, and technology",
   ],
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
@@ -159,4 +158,74 @@ export const careersData2 = {
     "Location: Remote (With occasional travel to NYC for team or client meetings",
     "Part-Time (3-5 hours / week )",
   ],
+};
+
+export const careersData3 = {
+  SectionOneid: "products",
+  SectionOnelightBg: true,
+  SectionOnelightText: true,
+  SectionOneLightTextDesc: true,
+  SectionOnetopLine: "Execution Services",
+  SectionOneheadline: "Project Execution Analyst",
+  JDHighLevel:
+    "Ambitious, early-career opportunity to drive execution on a variety of renewable energy projects",
+  JDLocation:
+    "Location: Remote (With occasional travel to NYC for team or client meetings",
+  JDCommitment: "Full-Time (40+ hours / week )",
+  SectionOnebuttonLabel: "Full Job Description",
+  SectionOneimgStart: false,
+  SectionOneimg: require("../../images/undraw/undraw_circles_green.svg")
+    .default,
+  SectionOnealt: "",
+  JDHeader1: "Our Story",
+  JDSection1:
+    "Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, diligencing, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",
+  JDHeader2: "About Us",
+  JDSection2: [
+    "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
+    "We are seeking a Program/Portfolio Manager for our Execution Services Group who is looking to make a sizable impact on the future of the renewable energy industry.",
+  ],
+  JDHeader3: "Who You Are",
+  JDSection3: [
+    "A driven self-starter, looking to continue to build on your professional and technical expertise in renewable energy project/portfolio management",
+    "Detailed-oriented, organized individual, who fervently believes there is no compromising when it comes to the details",
+    "Gritty, with the willingness to roll up your sleeves to support a rapidly growing company by maintaining a “no job is too small” mindset",
+    "Clear communicator, with excellent verbal and written communication skills",
+    "Team-player, who will collaborate with the founding team to translate (and improve) our proven renewables diligence, execution, and data services offering and toolsets",
+    "Scrappy, open-minded, entrepreneurial thinker who can flourish in a resource-limited environment",
+    "Customer-focused and personable, with an innate desire to exceed customer expectations",
+  ],
+  JDHeader4: "What You'll Do - Immediate",
+  JDSection4: [
+    "Co-manage and support multiple client engagements under the leadership of an experienced program/project manager or COO",
+    "Facilitate vendor on-boarding and general project administration including, but not limited to, document management/ organization and project reporting requirements ",
+    "Maintain tools, RFI/submittal trackers, schedules, budgets, meeting minutes, engagement invoicing and support overall company and project-specific functions under direction of the program/project manager or COO ",
+    "Work directly with the Euclid founding team on process and execution tool refinement and infrastructure build out",
+    "Learn from a world-class, experienced PV and storage development/execution team and work closely with the founding team to learn and understand the process of renewable energy development, diligence, execution, investment, and asset management",
+  ],
+  JDHeader5: "What You'll Do - Long-Term",
+  JDSection5: [
+    "Independently manage high-profile clients and frequent exposure to industry distributing technologies",
+    "Grow into a Project Manager (and beyond) and overall leader within our execution services group",
+    "Support in the design and architecture of new products and tools to serve renewable energy project developers and investors through Euclid’s platform with guidance from the founding members ",
+    "Support hiring and future build-out of the Euclid services group",
+  ],
+  JDHeader6: "What You Have",
+  JDSection6: [
+"0-3+ years of project or operations management experience in renewable energy, energy, or adjacent industries (preferred) or strong desire to enter the renewables space ",
+"Bachelor’s degree in engineering, project/operations/construction management, business management/economics – concentrations preferred, but not required ",
+"General knowledge of project management principles and customer success methods and best practices or interest in obtaining further project management certifications",
+
+  ],
+  JDHeader7: "What We Provide",
+  JDSection7: [
+    "Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
+    "Opportunity for early equity awards and share in the growth of the firm you are helping build ",
+    "Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
+    "Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
+    "Opportunity to learn and grow in a truly supportive, collaborative, dynamic and diverse environment ",
+    "Exposure to high-profile, industry leading clients, products, and technology",
+  ],
+  JDSection8:
+    "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
 };
