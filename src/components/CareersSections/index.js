@@ -25,6 +25,7 @@ import {
 } from "./CareersElements";
 import Navbar from "../Navbar";
 import Fade from "react-reveal";
+import { Dropdown } from "bootstrap";
 
 const CareersSection = ({
   SectionOneid,
@@ -54,6 +55,8 @@ const CareersSection = ({
   JDLocation,
   JDHighLevel,
   JDCommitment,
+  Dropdown, 
+  ApplicationButton, 
 }) => {
   const toggleHome = () => {
     scroll.scrollToTop({
@@ -91,7 +94,7 @@ const CareersSection = ({
                 </Subtitle>
                 <Row classname="d-flex flex-row">
                   <Col className="py-4">
-                    <ExternalButton href="https://app.smartsheet.com/b/form/992b5517a91b417dad74706043be5c66">Apply For This Role</ExternalButton>
+                    <ExternalButton href="https://app.smartsheet.com/b/form/992b5517a91b417dad74706043be5c66">{ApplicationButton}</ExternalButton>
                   </Col>
                   <Col className="py-4">
                     <BtnWrap>
@@ -99,6 +102,7 @@ const CareersSection = ({
                         onClick={openJD}
                         lightBg={SectionOnelightBg}
                         JD={JD}
+                        Visible={Dropdown}
                       >
                         {SectionOnebuttonLabel}
                       </CareerDropDownButton>
@@ -163,7 +167,7 @@ const CareersSection = ({
               </ul>
             </CareerDescription>
             <CareerDescription>{JDSection8}</CareerDescription>
-            <ExternalButton href="https://app.smartsheet.com/b/form/992b5517a91b417dad74706043be5c66">Apply For This Role</ExternalButton>
+            <ExternalButton href="https://app.smartsheet.com/b/form/992b5517a91b417dad74706043be5c66">{ApplicationButton}</ExternalButton>
           </JdRow>
         </InfoWrapper>
       </InfoContainer>

@@ -151,9 +151,11 @@ export const CareerDropDownButton = styled.div`
   border-right: 0px;
   border-bottom: 2px solid;
   border-color: ${({ JD }) => (JD ? "#253858" : "#fff")};
+  display: ${({ Visible }) => (Visible ? "block" : "none")};
   color: #253858;
   font-size: 1.15rem;
   cursor: pointer;
+
 
   &:hover {
     transition: all 0.2s ease-in-out;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FooterNew from "../components/Footer";
 import CareersSection from "../components/CareersSections";
-import { careersData1, careersData2, careersData3 } from "../components/CareersSections/data";
+import { careersData1, careersData2, careersData3, careersData4, careersData5 } from "../components/CareersSections/data";
 import Navbar from "../components/Navbar";
 import {SectionLine} from '../components/CareersSections/CareersElements'
 
@@ -22,7 +22,11 @@ const Careers = () => {
       <SectionLine></SectionLine>
       <CareersSection {...careersData3} />
       <SectionLine></SectionLine>
+      <CareersSection {...careersData4} />
+      <SectionLine></SectionLine>
       <CareersSection {...careersData1} />
+      <SectionLine></SectionLine>
+      <CareersSection {...careersData5} />
       <FooterNew />
     </>
   );
