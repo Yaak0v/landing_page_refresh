@@ -229,8 +229,8 @@ export const careersData3 = {
   ],
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
-    Dropdown: true,
-    ApplicationButton: "Apply for this role",
+  Dropdown: true,
+  ApplicationButton: "Apply for this role",
 };
 
 export const careersData4 = {
@@ -313,8 +313,8 @@ export const careersData4 = {
   ],
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
-    Dropdown: true,
-    ApplicationButton: "Apply for this role",
+  Dropdown: true,
+  ApplicationButton: "Apply for this role",
 };
 
 export const careersData5 = {
@@ -326,9 +326,9 @@ export const careersData5 = {
   SectionOneheadline: "General Career Inquiry",
   JDHighLevel:
     "Don't see a role that fits, but want to reach out to us? Send us you resume!",
-  JDLocation:
-    "Euclid is always looking for high quality candidates",
-  JDCommitment: "We welcome candidates of all races, creeds, genders, and sexuality to reach out",
+  JDLocation: "Euclid is always looking for high quality candidates",
+  JDCommitment:
+    "We welcome candidates of all races, creeds, genders, and sexuality to reach out",
   SectionOnebuttonLabel: "Full Job Description",
   SectionOneimgStart: false,
   SectionOneimg: require("../../images/undraw/undraw_wind_turbine_green.svg")
@@ -397,6 +397,71 @@ export const careersData5 = {
   ],
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
-    Dropdown: false,
-    ApplicationButton: "Submit Your Resume",
+  Dropdown: false,
+  ApplicationButton: "Submit Your Resume",
+};
+
+export const careersData6 = {
+  SectionOneid: "products",
+  SectionOnelightBg: true,
+  SectionOnelightText: true,
+  SectionOneLightTextDesc: true,
+  SectionOnetopLine: "Software",
+  SectionOneheadline: "Product or UX/UI Designer (Freelance)",
+  JDHighLevel:
+    "4-6 week contract role for product designer looking to drive the design of software product MVP for our renewable energy platform",
+  JDLocation: "Location: Remote",
+  JDCommitment:
+    "Part-Time or Full-Time Freelance 4-6 Weeks with potential for longer engagement",
+  SectionOnebuttonLabel: "Full Job Description",
+  SectionOneimgStart: false,
+  SectionOneimg: require("../../images/undraw/undraw_code_typing.svg").default,
+  SectionOnealt: "",
+  JDHeader1: "About Us",
+  JDSection1:
+    "Euclid Power is a renewable energy software and services company that builds data management and workflow tools to help project developers and investors develop, diligence, execute, and asset-manage renewables projects. We believe it is time that the process of deploying renewable energy projects was powered by software, as much as social media or online ads. Euclid is led by a world-class team of industry-leading veterans with development and investment experience on over 3GW of solar and 1GWh of energy storage projects. We previously created the diligence, investing, and execution process for some of the industry’s leading developers and investors including Goldman Sachs Renewable Power, Blackstone (Onyx), GE Solar, Generate Capital, and True Green Capital. We are seeking a product or UX/UI designer with proven experience designing web applications to work with us for the next 4-6 weeks as we design, and prototype, the MVP of our software platform.",
+  JDHeader2: "Our Story",
+  JDSection2: [
+    "The story of Euclid begins 10 years ago when our co-founder, Ryan Guay, walked into the offices of his first job, at the largest solar installer in New York. The company’s entire 50-project pipeline was written on a whiteboard, with no general plan, tools, or processes in sight to manage the 1,000s of key data points necessary to diligence, build, execute, and finance these complex projects while communicating with dozens of key stakeholders. Over the next decade, Ryan and the rest of the founding team have witnessed firsthand the renewable power industry suffer from cost overruns, massive schedule delays, overlooked project risks, and many, many dead deals from the lack of data and process management. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our mission is to capture and track project data so that key players can develop, diligence, build, and finance their projects on time and on budget and, frankly, get more renewable energy deals done.",
+  ],
+  JDHeader3: "Who You Are",
+  JDSection3: [
+    "Full-time freelancer or currently-employed-and-looking-for-exciting-side-gig",
+    "Life-long learner and builder that is passionate about creating great software products to support the deployment of renewable energy projects",
+    "Experienced product designer that can create the design, feel, and flows of our web-based software product",
+    "Creative architect that is excited by the opportunity to bring a new product to market that can eventually scale to serve hundreds of customers in the renewables space",
+    "Team-player that will collaborate with the founding team, product advisor, and software engineers to translate (and improve) our proven renewables diligence, execution, and data tools into a proprietary software environment",
+    "Self-starter that can take direction from product team and create numerous viable designs to test with early customers",
+    "Scrappy, open-minded, entrepreneurial thinker who can guide product decisions in a resource-limited environment and understand the benefits and trade-offs of the many different solutions available for a given problem",
+    "Scrappy, open-minded, entrepreneurial thinker who can guide product decisions in a resource-limited environment and understand the benefits and trade-offs of the many different solutions available for a given problem",
+  ],
+  JDHeader4: "What You'll Do",
+  JDSection4: [
+"Contract arrangement for 4-6 weeks with potential for longer-term engagement based on success of initial deliverables and product",
+"Work with founders and product team (product advisor and 2 full-stack software engineers) to take a batch of MVP features and feature description and wireframe potential designs for software application",
+"Iterate wireframes based on feedback from product team and potential customers",
+"Build high-fidelity mockups that can be used for prototyping and eventually given to software team for initial product build",
+"Work closely with the founding team to learn and understand the process of renewable energy development, diligence, execution, investment, and asset management in order to build in necessary user flows",
+"Aid in the aggregation of user feedback from prototyping/testing stage and conversion into actionable insights for the engineering team",
+
+  ],
+  JDHeader5: "",
+  JDSection5: [
+  ],
+  JDHeader6: "What You Have",
+  JDSection6: [
+"5+ years of UX/UI or Product Design experience in the software space (web-based enterprise software preferred)",
+"Portfolio of previous design projects ",
+"Excellent at communicating design decisions and processes regardless of the audience – non-technical founders, PMs, engineers, other designers, etc.",
+"Understanding of real customer problems; either partnered with research teams—or better yet, led research—to test, inform, and validate product / design thinking",
+"Excellent skills in product design tools (Figma preferred, but Adobe XD, Sketch, etc. okay as well)",
+    
+  ],
+  JDHeader7: "",
+  JDSection7: [
+  ],
+  JDSection8:
+    "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
+  Dropdown: true,
+  ApplicationButton: "Apply for this role",
 };
