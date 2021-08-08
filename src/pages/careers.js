@@ -24,8 +24,6 @@ const Careers = () => {
       <SectionLine></SectionLine>
       <CareersSection {...careersData4} />
       <SectionLine></SectionLine>
-      <CareersSection {...careersData1} />
-      <SectionLine></SectionLine>
       <CareersSection {...careersData5} />
       <FooterNew />
     </>
