@@ -184,7 +184,7 @@ export const careersData3 = {
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
-    "We are seeking a Program/Portfolio Manager for our Execution Services Group who is looking to make a sizable impact on the future of the renewable energy industry.",
+    "We are seeking a Project Execution Analyst for our Execution Services Group who is looking to make a sizable impact on the future of the renewable energy industry.",
   ],
   JDHeader3: "Who You Are",
   JDSection3: [
@@ -256,7 +256,7 @@ export const careersData4 = {
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
-    "We are seeking a Program/Portfolio Manager for our Execution Services Group who is looking to make a sizable impact on the future of the renewable energy industry.",
+    "We are seeking a Project Execution Manager for our Execution Services Group who is looking to make a sizable impact on the future of the renewable energy industry.",
   ],
   JDHeader3: "Who You Are",
   JDSection3: [
@@ -340,7 +340,6 @@ export const careersData5 = {
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
-    "We are seeking a Program/Portfolio Manager for our Execution Services Group who is looking to make a sizable impact on the future of the renewable energy industry.",
   ],
   JDHeader3: "Who You Are",
   JDSection3: [
