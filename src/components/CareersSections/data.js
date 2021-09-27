@@ -15,7 +15,7 @@ export const careersData1 = {
   SectionOnealt: "",
   JDHeader1: "Our Story",
   JDSection1:
-    "The story of Euclid begins 10 years ago when our co-founder, Ryan Guay, walked into the offices of his first job, at the largest solar installer in New York. The company’s entire 50-project pipeline was written on a whiteboard, with no general plan, tools, or processes in sight to manage the 1,000s of key data points necessary to diligence, build, execute, and finance these complex projects while communicating with dozens of key stakeholders. Over the next decade, Ryan and the rest of the founding team have witnessed firsthand the renewable power industry suffer from cost overruns, massive schedule delays, overlooked project risks, and many, many dead deals from the lack of data and process management. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our mission is to capture and track project data so that key players can develop, diligence, build, and finance their projects on time and on budget and, frankly, get more renewable energy deals done.",
+    ["The story of Euclid begins 10 years ago when our co-founder, Ryan Guay, walked into the offices of his first job, at the largest solar installer in New York. The company’s entire 50-project pipeline was written on a whiteboard, with no general plan, tools, or processes in sight to manage the 1,000s of key data points necessary to diligence, build, execute, and finance these complex projects while communicating with dozens of key stakeholders. Over the next decade, Ryan and the rest of the founding team have witnessed firsthand the renewable power industry suffer from cost overruns, massive schedule delays, overlooked project risks, and many, many dead deals from the lack of data and process management. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our mission is to capture and track project data so that key players can develop, diligence, build, and finance their projects on time and on budget and, frankly, get more renewable energy deals done.",],
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a renewable energy software and services company that builds data management and workflow tools to help project developers and investors develop, diligence, execute, and asset-manage renewables projects. We believe it is time that the process of deploying renewable energy projects was powered by software, as much as social media or online ads.",
@@ -94,7 +94,7 @@ export const careersData2 = {
   SectionOnealt: "",
   JDHeader1: "Our Story",
   JDSection1:
-    "Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",
+    ["Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",],
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
@@ -180,7 +180,7 @@ export const careersData3 = {
   SectionOnealt: "",
   JDHeader1: "Our Story",
   JDSection1:
-    "Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",
+    ["Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",],
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
@@ -252,7 +252,7 @@ export const careersData4 = {
   SectionOnealt: "",
   JDHeader1: "Our Story",
   JDSection1:
-    "Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",
+    ["Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",],
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
@@ -336,7 +336,7 @@ export const careersData5 = {
   SectionOnealt: "",
   JDHeader1: "Our Story",
   JDSection1:
-    "Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",
+    ["Euclid Power Inc. execution services group was born out of the founders unwavering commitment to process and ‘doing the right thing.’ We have witnessed firsthand how portfolios in the renewable power industry suffer from cost overruns, massive schedule delays, uninformed stakeholders, overlooked project risks, and many, many dead deals. We were continuously frustrated with the lack of competent technical expertise, data and process management and under-prioritization of deal continuity and organization. Whether it was development and execution on a single 300MW site, or a portfolio of 150kW rooftop projects, overall deal execution always fumbled through the same unstructured and ambiguous process, masked in uncertainty as to where to start and where to head next. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our ardent mission is to aid our clients, armed with unmatched technical acumen and industry-specific platform & toolset, in developing, de-risking, building, and financing their projects on time and on budget and, frankly, to ensure more renewable energy deals get done. ",],
   JDHeader2: "About Us",
   JDSection2: [
     "Euclid Power is a solar and storage renewable energy services and software company that facilitates the development, diligence, execution, financing, and asset-management of renewables projects in conjunction with renewable energy developers and investors. Euclid provides a transformative data and project management platform, alongside value-add turn-key services, to guide developers and investors through execution on complex projects at all stages of the project lifecycle. Euclid is led by a world-class team of renewable energy veterans with over 3GW of PV and 1GWh of energy storage development, diligence, finance, and execution experience. We have developed the diligence, investing, and execution process for some of the industry’s leading developers and investors, and our results-centered approach focuses on success for our clients no matter the project stage, size, or challenge. We are passionate about renewables, and we work with our clients to get their projects developed, managed, and built right: on time, on budget, and with results that speak for themselves.",
@@ -458,6 +458,79 @@ export const careersData6 = {
   ],
   JDHeader7: "",
   JDSection7: [
+  ],
+  JDSection8:
+    "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
+  Dropdown: true,
+  ApplicationButton: "Apply for this role",
+};
+
+export const careersData7 = {
+  SectionOneid: "products",
+  SectionOnelightBg: true,
+  SectionOnelightText: true,
+  SectionOneLightTextDesc: true,
+  SectionOnetopLine: "Software",
+  SectionOneheadline: "Senior Software Engineer, Full-Stack / Back End",
+  JDHighLevel:
+    "Experienced full-stack engineer looking to to drive development and architecture of Euclid's software platform",
+  JDLocation: "Location: Remote or NYC",
+  JDCommitment:
+    "Full Time",
+  SectionOnebuttonLabel: "Full Job Description",
+  SectionOneimgStart: false,
+  SectionOneimg: require("../../images/undraw/undraw_code_typing.svg").default,
+  SectionOnealt: "",
+  JDHeader1: "About Us",
+  JDSection1:
+    ["Euclid Power is a renewable energy software and services company that is building the operating system for the renewable energy industry; data management and workflow tools to help project developers and investors build more renewable energy projects. We believe it is time that the process of deploying renewable energy projects was powered by software, as much as social media or online ads.",
+    "Euclid is trusted by some of the largest solar investors, solar developers, utilities, and technology integrators to provide software, guidance, and project diligence support. Our annualized revenues already eclipse $1M after fewer than six months of operation and without raising any outside capital. Euclid is led by a world-class team of renewable energy veterans that previously created the diligence, investing, and execution process for some of the industry’s leading developers and investors including Goldman Sachs Renewable Power, Blackstone (Onyx), GE Solar, Generate Capital, and True Green Capital.",
+    "We are seeking a full-stack engineer with proven experience building industrial-grade web apps to scale our software platform. Our software stack includes React / Rails / Postgres.",
+    "Our company is committed to hiring talented team-members and advisors who are hardworking, passionate, and committed to our mission. Hires at this stage will immediately contribute to the DNA of our product, processes, and, most importantly, culture. At Euclid, learning, growing, and testing the best ideas are central to our approach to solving one of the world’s most important challenges: climate change",],
+  JDHeader2: "Our Story",
+  JDSection2: [
+    "The story of Euclid begins 10 years ago when our co-founder, Ryan Guay, walked into the offices of his first job, at the largest solar installer in New York. The company’s entire 50-project pipeline was written on a whiteboard, with no general plan, tools, or processes in sight to manage the 1,000s of key data points necessary to diligence, build, execute, and finance these complex projects while communicating with dozens of key stakeholders. Over the next decade, Ryan and the rest of the founding team have witnessed firsthand the renewable power industry suffer from cost overruns, massive schedule delays, overlooked project risks, and many, many dead deals from the lack of data and process management. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our mission is to capture and track project data so that key players can develop, diligence, build, and finance their projects on time and on budget and, frankly, get more renewable energy deals done.",
+  ],
+  JDHeader3: "Who You Are",
+  JDSection3: [
+"Life-long learner and builder that is passionate about creating great software products to support the deployment of renewable energy projects",
+"Experienced full-stack engineer that can lead architecting a scalable web-based application ",
+"Creative architect that is excited by the opportunity to grow a product to serve hundreds of the largest customers in the renewables space",
+"Team-player that will collaborate with the founding team to translate (and improve) our proven renewables diligence, execution, and data tools into a proprietary software environment",
+"Leader that can facilitate the review and management of deliverables from a team of junior engineers ",
+"Scrappy, open-minded, entrepreneurial thinker who can guide product decisions in a resource-limited environment and understand the benefits and trade-offs of the many different solutions available for a given problem",
+  ],
+  JDHeader4: "What You'll Do - Immediate",
+  JDSection4: [
+"Take ownership of Ruby on Rails-based backend development and architecture of software products, making customer-centric decisions on design of web app",
+"Work with product team to support scope definition and resource allocation for engineering team",
+"Work with co-founders to build world-class engineering culture at Euclid, defining processes for software development, testing, and deployment",
+"Work closely with the founding team to learn and understand the process of renewable energy development, diligence, execution, investment, and asset management",
+  ],
+  JDHeader5: "What You'll Do - Long Term",
+  JDSection5: [
+"Lead growth of software team, working with co-founders on hiring and recruiting world-class talent to achieve corporate product goals",
+"Facilitate design and architecture of new products and tools to serve renewable energy project developers and investors through Euclid’s platform with guidance from the founding members ",
+"Continue to improve reliability and scalability of Euclid software platform as we expand our product offerings and grow our customer base",
+  ],
+  JDHeader6: "What You Have",
+  JDSection6: [
+    "5+ years of software development experience",
+    "Capable front-end engineering skills with React, Typescript, Javascript",
+    "World-Class back-end engineering skills (Ruby on Rails, API, database architecture)",
+    "World-Class experience with, and commitment to, testing, continuous integration, security, infrastructure, and deployment",
+    "Excellent software architecture skills in a modern MVC framework ",
+    "Experience in managing an engineering team or acting in a tech-lead role",
+    "Passion for fighting climate change through deployment of clean energy",
+    ],
+  JDHeader7: "What We Provide",
+  JDSection7: [
+"Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
+"Opportunity for early equity awards and share in the growth of the firm you are helping build ",
+"Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
+"Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
+"Opportunity to learn and grow in a truly supportive, collaborative, dynamic, and diverse environment ",
+"Exposure to high-profile, industry leading clients, products, and technology",
   ],
   JDSection8:
     "We welcome candidates of all races, creeds, genders, and sexuality to apply.",

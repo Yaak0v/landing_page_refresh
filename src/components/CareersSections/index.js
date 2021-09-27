@@ -119,7 +119,8 @@ const CareersSection = ({
           </InfoRow>
           <JdRow JD={JD}>
             <CareerHeading>{JDHeader1}</CareerHeading>
-            <CareerDescription>{JDSection1}</CareerDescription>
+            <CareerDescription>{JDSection1.map((item, index) => (
+                <p key={index}>{item}</p>))}</CareerDescription>
             <CareerHeading>{JDHeader2}</CareerHeading>
             <CareerDescription>
               {JDSection2.map((item, index) => (
