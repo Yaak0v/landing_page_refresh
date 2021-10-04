@@ -537,3 +537,77 @@ export const careersData7 = {
   Dropdown: true,
   ApplicationButton: "Apply for this role",
 };
+
+export const careersData8 = {
+  SectionOneid: "products",
+  SectionOnelightBg: true,
+  SectionOnelightText: true,
+  SectionOneLightTextDesc: true,
+  SectionOnetopLine: "Finance",
+  SectionOneheadline: "Finance and Investment Manager",
+  JDHighLevel:
+    "Experienced finance professional looking to support leading solar and storage clients",
+  JDLocation: "Location: Remote or NYC",
+  JDCommitment:
+    "Full Time",
+  SectionOnebuttonLabel: "Full Job Description",
+  SectionOneimgStart: false,
+  SectionOneimg: require("../../images/undraw/undraw_code_typing.svg").default,
+  SectionOnealt: "",
+  JDHeader1: "About Us",
+  JDSection1:
+    ["Euclid Power is a renewable energy software and services company that is building the operating system for the renewable energy industry; data management and workflow tools to help project developers and investors build more renewable energy projects. We believe it is time that the process of deploying renewable energy projects was powered by software, as much as social media or online ads.",
+    "Euclid is trusted by some of the largest solar investors, solar developers, utilities, and technology integrators to provide software, guidance, and project diligence support. Our annualized revenues already eclipse $1M after fewer than six months of operation and without raising any outside capital. Euclid is led by a world-class team of renewable energy veterans that previously created the diligence, investing, and execution process for some of the industry’s leading developers and investors including Goldman Sachs Renewable Power, Blackstone (Onyx), GE Solar, Generate Capital, and True Green Capital.",
+    "We are seeking a finance and investment associate to lead our investment-analysis engagements, drive development of our excel-based valuation tools, and support corporate finance and strategy.",
+    "Our company is committed to hiring talented team-members and advisors who are hardworking, passionate, and committed to our mission. Hires at this stage will immediately contribute to the DNA of our product, processes, and, most importantly, culture. At Euclid, learning, growing, and testing the best ideas are central to our approach to solving one of the world’s most important challenges: climate change",],
+  JDHeader2: "Our Story",
+  JDSection2: [
+    "The story of Euclid begins 10 years ago when our co-founder, Ryan Guay, walked into the offices of his first job, at the largest solar installer in New York. The company’s entire 50-project pipeline was written on a whiteboard, with no general plan, tools, or processes in sight to manage the 1,000s of key data points necessary to diligence, build, execute, and finance these complex projects while communicating with dozens of key stakeholders. Over the next decade, Ryan and the rest of the founding team have witnessed firsthand the renewable power industry suffer from cost overruns, massive schedule delays, overlooked project risks, and many, many dead deals from the lack of data and process management. Euclid was founded to bring much-needed operational reprieve to the industry and finally get this process right. As the industry grows, our mission is to capture and track project data so that key players can develop, diligence, build, and finance their projects on time and on budget and, frankly, get more renewable energy deals done.",
+  ],
+  JDHeader3: "Who You Are",
+  JDSection3: [
+"Life-long learner and builder that is passionate about financial modeling, investment analysis, and tool building in the renewable energy space",
+"Experienced financial modeler that can lead create and maintain financial models for a variety of renewable energy deal structures",
+"Creative architect that is excited by the opportunity to own financial analysis products that will grow to serve hundreds of the largest customers in the renewables space",
+"Team-player that will collaborate with the founding team to understand a variety of renewable energy transaction structures",
+"Scrappy, open-minded, entrepreneurial thinker who can guide product decisions in a resource-limited environment and understand the benefits and trade-offs of the many different solutions available for a given problem",
+  ],
+  JDHeader4: "What You'll Do - Immediate",
+  JDSection4: [
+"Support clients that have engaged Euclid for investment analysis and modeling consultation",
+"Take ownership of Euclid’s financial analysis tools, working with existing and future customers to improve these offerings",
+"Support Euclid corporate financial modeling decisions, supporting strategy for fundraising, cashflow planning, accounting, and reporting",
+"Work with co-founders to build world-class investment analysis and financial structuring culture at Euclid",
+"Work closely with the founding team to learn and understand the process of renewable energy development, diligence, execution, investment, and asset management",
+
+  ],
+  JDHeader5: "What You'll Do - Long Term",
+  JDSection5: [
+  "Lead Euclid’s financial modeling and investment analysis engagements",
+  "Facilitate design and architecture of new financial analysis products and tools to serve renewable energy project developers and investors ",
+  "Drive build-out of corporate finance and accounting infrastructure",
+  "Support corporate fundraising initiatives",
+  ],
+  JDHeader6: "What You Have",
+  JDSection6: [
+    "1-5 year(s) of experience in an investment banking or investing role requiring significant financial modeling",
+    "World-class capabilities with either (both preferred): 1. Project finance modeling for solar, storage, and /or wind projects; 2. Corporate financial modeling (financial statements, DCF analysis, comps, etc.)",
+    "World-class Microsoft Excel skills understanding how to build clean, concise, and robust financial models ",
+    "Excitement for developing financial analysis tools from scratch",
+    "Strong understanding of finance and key financial structures used in renewable energy (sponsor equity, debt, tax equity) industry is a plus",
+    "Passion for fighting climate change through deployment of clean energy",
+  ],
+  JDHeader7: "What We Provide",
+  JDSection7: [
+"Benefits package (401K, Health Insurance, Remote Work, Paid Time Off, Paid Holidays)",
+"Opportunity for early equity awards and share in the growth of the firm you are helping build ",
+"Professional credential obtainment sponsorship (PMP, PE, CFA, Software)",
+"Multidisciplinary exposure and training (Tax, Legal, Finance, Diligence, Engineering etc.) ",
+"Opportunity to learn and grow in a truly supportive, collaborative, dynamic, and diverse environment ",
+"Exposure to high-profile, industry leading clients, products, and technology",
+  ],
+  JDSection8:
+    "We welcome candidates of all races, creeds, genders, and sexuality to apply.",
+  Dropdown: true,
+  ApplicationButton: "Apply for this role",
+};
