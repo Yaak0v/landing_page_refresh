@@ -640,11 +640,11 @@ export const careersData9 = {
   ],
   JDHeader3: "Who You Are",
   JDSection3: [
-"Life-long learner and builder that is passionate about financial modeling, investment analysis, and tool building in the renewable energy space",
-"Experienced financial modeler that can lead create and maintain financial models for a variety of renewable energy deal structures",
-"Creative architect that is excited by the opportunity to own financial analysis products that will grow to serve hundreds of the largest customers in the renewables space",
-"Team-player that will collaborate with the founding team to understand a variety of renewable energy transaction structures",
-"Scrappy, open-minded, entrepreneurial thinker who can guide product decisions in a resource-limited environment and understand the benefits and trade-offs of the many different solutions available for a given problem",
+"Life-long learner and builder that is excited to take drive forward numerous initiatives in a fast-paced startup environment",
+"Detail-oriented self-starter that can independently run with tasks given limited information and summarize findings clearly for leadership team",
+"Humble organizer that can understand the many needs of Euclid’s organization and team and develop solutions that meet those needs",
+"Effective communicator that can manage important internal and external relationships",
+"Passionate leader that is excited about creating solutions for the renewable energy industry",
   ],
   JDHeader4: "What You'll Do - Immediate",
   JDSection4: [
