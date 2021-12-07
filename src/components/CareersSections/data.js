@@ -471,7 +471,7 @@ export const careersData7 = {
   SectionOnelightText: true,
   SectionOneLightTextDesc: true,
   SectionOnetopLine: "Software",
-  SectionOneheadline: "Founding Software Engineer, Full-Stack",
+  SectionOneheadline: "Full-Stack Engineer",
   JDHighLevel:
     "Experienced full-stack engineer looking to to drive development and architecture of Euclid's software platform",
   JDLocation: "Location: Remote or NYC",
