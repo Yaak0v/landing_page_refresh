@@ -188,3 +188,7 @@ code {
 .team-list-item {
   background-color: #f8f9fa;
 }
+
+.helper-outline {
+  border: solid tomato;
+}

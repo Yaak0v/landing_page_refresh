@@ -16,17 +16,26 @@ import {
   ServicesCardLink,
   TeamP,
   TopLine,
-  ServicesListLink
+  ServicesListLink,
+  ServicesCardSmall,
+  TeamWrapper,
+  TeamIcon
 } from "./TeamElements";
+import { Container, Row } from "react-bootstrap";
 
 const Services = () => {
   return (
     <Element id="team">
-      <ServicesContainer id="team">
+      <ServicesContainer id="team" className="helper-outline">
         <Fade bottom>
           <ServicesH1>World Class Team</ServicesH1>
         </Fade>
-        <ServicesWrapper>
+        <Container className="text-center">
+        <Row>
+          <ServicesH2>Co-Founders</ServicesH2>
+        </Row>
+        </Container>
+        <ServicesWrapper className="helper-outline">
           <ServicesDiv>
             <Fade bottom>
              <ServicesCardLink href="https://www.linkedin.com/in/brian-demaio-935b4666/">
@@ -124,6 +133,56 @@ const Services = () => {
             </Fade>
           </ServicesDiv>
         </ServicesWrapper>
+        <Row className="mt-3">
+          <ServicesH2>Euclid Team</ServicesH2>
+        </Row>
+        <TeamWrapper className="helper-outline">
+          <ServicesDiv className="helper-outline">
+            <ServicesCardLink>
+            <ServicesCardSmall>
+                <TeamIcon src={Icon1} />
+                <ServicesH2>Brian DeMaio</ServicesH2>
+                <ServicesP>Co-Founder, COO</ServicesP>
+              </ServicesCardSmall>
+            </ServicesCardLink>
+          </ServicesDiv>
+          <ServicesDiv>
+            <ServicesCardLink>
+            <ServicesCardSmall>
+                <TeamIcon src={Icon1} />
+                <ServicesH2>Brian DeMaio</ServicesH2>
+                <ServicesP>Co-Founder, COO</ServicesP>
+              </ServicesCardSmall>
+            </ServicesCardLink>
+          </ServicesDiv>
+          <ServicesDiv>
+            <ServicesCardLink>
+            <ServicesCardSmall>
+                <TeamIcon src={Icon1} />
+                <ServicesH2>Brian DeMaio</ServicesH2>
+                <ServicesP>Co-Founder, COO</ServicesP>
+              </ServicesCardSmall>
+            </ServicesCardLink>
+          </ServicesDiv>
+          <ServicesDiv>
+            <ServicesCardLink>
+            <ServicesCardSmall>
+                <TeamIcon src={Icon1} />
+                <ServicesH2>Brian DeMaio</ServicesH2>
+                <ServicesP>Co-Founder, COO</ServicesP>
+              </ServicesCardSmall>
+            </ServicesCardLink>
+          </ServicesDiv>
+          <ServicesDiv>
+            <ServicesCardLink>
+            <ServicesCardSmall>
+                <TeamIcon src={Icon1} />
+                <ServicesH2>Brian DeMaio</ServicesH2>
+                <ServicesP>Co-Founder, COO</ServicesP>
+              </ServicesCardSmall>
+            </ServicesCardLink>
+          </ServicesDiv>
+        </TeamWrapper>
       </ServicesContainer>
     </Element>
   );

@@ -37,8 +37,46 @@ export const ServicesWrapper = styled.div`
     padding: 0;
   }
 `;
+export const TeamWrapper = styled.div`
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+
+  @media screen and (max-width: 1167px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+`;
 
 export const ServicesCard = styled.div`
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  max-height: 400px;
+  padding: 30px;
+  margin: 0 1rem 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+`;
+export const ServicesCardSmall = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -63,6 +101,15 @@ export const ServicesIcon = styled.img`
   width: 160px; */
   width: 100%auto;
   max-width: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+`;
+
+export const TeamIcon = styled.img`
+  /* height: 160px;
+  width: 160px; */
+  width: 100%auto;
+  max-width: 175px;
   margin-bottom: 10px;
   border-radius: 5px;
 `;
