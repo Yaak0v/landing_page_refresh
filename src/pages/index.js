@@ -8,6 +8,7 @@ import Team from "../components/Team";
 import Sidebar from "../components/Sidebar";
 import About from "../components/About";
 import ExperienceNewIcons from "../components/ExperienceNewIcons";
+import { TeamData } from "../components/Team/data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Home = () => {
       <HeroSection />
       <About />
       <InfoSection {...homeObj} />
-      <Team />
+      <Team {...TeamData}/>
       <ExperienceNewIcons />
       <FooterNew />
     </>

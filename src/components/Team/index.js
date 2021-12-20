@@ -23,7 +23,7 @@ import {
 } from "./TeamElements";
 import { Container, Row } from "react-bootstrap";
 
-const Services = () => {
+const Services = ({Data}) => {
   return (
     <Element id="team">
       <ServicesContainer id="team" className="helper-outline">
@@ -137,43 +137,18 @@ const Services = () => {
           <ServicesH2>Euclid Team</ServicesH2>
         </Row>
         <TeamWrapper className="helper-outline">
+          {Data.map((item, index) => 
+          (<ServicesDiv className="helper-outline">
+            <ServicesCardLink>
+            <ServicesCardSmall>
+                <TeamIcon key={index} src={item["Image"]} />
+                <ServicesH2 key={index}>{item["Name"]}</ServicesH2>
+                <ServicesP key={index}>{item["Title"]}</ServicesP>
+              </ServicesCardSmall>
+            </ServicesCardLink>
+          </ServicesDiv>
+          ))}
           <ServicesDiv className="helper-outline">
-            <ServicesCardLink>
-            <ServicesCardSmall>
-                <TeamIcon src={Icon1} />
-                <ServicesH2>Brian DeMaio</ServicesH2>
-                <ServicesP>Co-Founder, COO</ServicesP>
-              </ServicesCardSmall>
-            </ServicesCardLink>
-          </ServicesDiv>
-          <ServicesDiv>
-            <ServicesCardLink>
-            <ServicesCardSmall>
-                <TeamIcon src={Icon1} />
-                <ServicesH2>Brian DeMaio</ServicesH2>
-                <ServicesP>Co-Founder, COO</ServicesP>
-              </ServicesCardSmall>
-            </ServicesCardLink>
-          </ServicesDiv>
-          <ServicesDiv>
-            <ServicesCardLink>
-            <ServicesCardSmall>
-                <TeamIcon src={Icon1} />
-                <ServicesH2>Brian DeMaio</ServicesH2>
-                <ServicesP>Co-Founder, COO</ServicesP>
-              </ServicesCardSmall>
-            </ServicesCardLink>
-          </ServicesDiv>
-          <ServicesDiv>
-            <ServicesCardLink>
-            <ServicesCardSmall>
-                <TeamIcon src={Icon1} />
-                <ServicesH2>Brian DeMaio</ServicesH2>
-                <ServicesP>Co-Founder, COO</ServicesP>
-              </ServicesCardSmall>
-            </ServicesCardLink>
-          </ServicesDiv>
-          <ServicesDiv>
             <ServicesCardLink>
             <ServicesCardSmall>
                 <TeamIcon src={Icon1} />
