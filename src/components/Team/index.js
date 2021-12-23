@@ -136,10 +136,10 @@ const Services = ({Data}) => {
         <Row className="mt-3">
           <ServicesH2>Euclid Team</ServicesH2>
         </Row>
-        <TeamWrapper className="helper-outline">
-          {Data.map((item, index) => 
+        <TeamWrapper>
+          {Data.map((item,index) => 
           (<ServicesDiv className="helper-outline">
-            <ServicesCardLink>
+            <ServicesCardLink key={index} href={item["LinkedIn"]}>
             <ServicesCardSmall>
                 <TeamIcon key={index} src={item["Image"]} />
                 <ServicesH2 key={index}>{item["Name"]}</ServicesH2>
@@ -148,15 +148,6 @@ const Services = ({Data}) => {
             </ServicesCardLink>
           </ServicesDiv>
           ))}
-          <ServicesDiv className="helper-outline">
-            <ServicesCardLink>
-            <ServicesCardSmall>
-                <TeamIcon src={Icon1} />
-                <ServicesH2>Brian DeMaio</ServicesH2>
-                <ServicesP>Co-Founder, COO</ServicesP>
-              </ServicesCardSmall>
-            </ServicesCardLink>
-          </ServicesDiv>
         </TeamWrapper>
       </ServicesContainer>
     </Element>
