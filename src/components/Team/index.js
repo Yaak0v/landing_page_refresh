@@ -19,6 +19,7 @@ import {
   ServicesListLink,
   ServicesCardSmall,
   TeamWrapper,
+  TeamH2,
   TeamIcon
 } from "./TeamElements";
 import { Container, Row } from "react-bootstrap";
@@ -32,10 +33,10 @@ const Services = ({Data}) => {
         </Fade>
         <Container className="text-center">
         <Row>
-          <ServicesH2>Co-Founders</ServicesH2>
+          <TeamH2>Co-Founders</TeamH2>
         </Row>
         </Container>
-        <ServicesWrapper className="helper-outline">
+        <ServicesWrapper>
           <ServicesDiv>
             <Fade bottom>
              <ServicesCardLink href="https://www.linkedin.com/in/brian-demaio-935b4666/">
@@ -134,7 +135,7 @@ const Services = ({Data}) => {
           </ServicesDiv>
         </ServicesWrapper>
         <Row className="mt-3">
-          <ServicesH2>Euclid Team</ServicesH2>
+          <TeamH2>Euclid Team</TeamH2>
         </Row>
         <TeamWrapper>
           {Data.map((item,index) => 

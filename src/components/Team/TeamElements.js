@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 1000px;
+  /* height: 1000px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,11 +10,11 @@ export const ServicesContainer = styled.div`
   /* max-width: 1300px; */
 
   @media screen and (max-width: 1167px) {
-    height: 1700px;
+    height: 3000px;
   }
 
   @media screen and (max-width: 768px) {
-    height: 2500px;
+    height: 4850px;
   }
 `;
 
@@ -26,6 +26,7 @@ export const ServicesWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
+  margin-bottom: 20px;
 
   @media screen and (max-width: 1167px) {
     grid-template-columns: 1fr 1fr;
@@ -135,14 +136,15 @@ export const ServicesH2 = styled.h2`
 
 export const ServicesP = styled.p`
   font-size: 1rem;
+  height: 48px;
   text-align: center;
   color: #42526e;
   text-decoration: none;
 `;
 
 export const TeamH2 = styled.h2`
-  font-size: 1rem;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 20px;
   text-decoration: none;
   color: #212529;
 `;
