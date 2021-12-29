@@ -27,9 +27,9 @@ import { Container, Row } from "react-bootstrap";
 const Services = ({Data}) => {
   return (
     <Element id="team">
-      <ServicesContainer id="team" className="helper-outline">
+      <ServicesContainer id="team">
         <Fade bottom>
-          <ServicesH1>World Class Team</ServicesH1>
+          <ServicesH1 className="mt-4">World Class Team</ServicesH1>
         </Fade>
         <Container className="text-center">
         <Row>
@@ -139,7 +139,7 @@ const Services = ({Data}) => {
         </Row>
         <TeamWrapper>
           {Data.map((item,index) => 
-          (<ServicesDiv className="helper-outline">
+          (<ServicesDiv>
             <ServicesCardLink key={index} href={item["LinkedIn"]}>
             <ServicesCardSmall>
                 <TeamIcon key={index} src={item["Image"]} />
