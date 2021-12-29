@@ -18,17 +18,15 @@ const Careers = () => {
       <div className="mt-5 text-center header-color">
           <h1 className="mb-5">Life-Changing Careers</h1>
         </div>
-      <CareersSection {...careersData9} />
-      <SectionLine></SectionLine>
       <CareersSection {...careersData7} />
-      <SectionLine></SectionLine>
-      <CareersSection {...careersData8} />
       <SectionLine></SectionLine>
       <CareersSection {...careersData2} />
       <SectionLine></SectionLine>
       <CareersSection {...careersData3} />
       <SectionLine></SectionLine>
       <CareersSection {...careersData4} />
+      <SectionLine></SectionLine>
+      <CareersSection {...careersData8} />
       <SectionLine></SectionLine>
       <CareersSection {...careersData5} />
       <FooterNew />
